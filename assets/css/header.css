@@ -1,0 +1,29 @@
+header{
+    background: yellow;
+    padding-top: 5px;
+    
+}
+
+.header__imagem {
+    height: 50px;
+    
+}
+
+.header__navegacao {
+    display: flex;
+    justify-content: space-around;    
+}
+
+.header__menu {
+    display: flex;
+    flex-flow: row;    
+}
+
+.header__menu li {
+    padding: 5px;
+}
+
+.header__li {
+    font-size: 20px;
+    font-weight: bold;    
+}

@@ -1,0 +1,59 @@
+.main__imagem{
+    background-image: url(../img/fundo.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 400px;
+}
+
+.main__empresa {
+
+}
+
+.main__h2 {
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 10px;
+    margin-top: 4px;
+}
+
+.main__text-empresa{
+    text-align: justify;
+}
+
+}
+.main__bordao {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+li {
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.servicos-imagem-t {
+    height: 350px;
+}
+
+.servicos-imagem-f {
+    height: 310px;
+}
+
+.servicos-imagem-e {
+    height: 320px;
+}
+
+.servicos-imagem-a {
+    height: 330px;
+}
+
+.servicos-imagem-w {
+    height: 470px;
+}
+
+.cor-servicos {
+    background: yellow;
+    padding-top: 20px;
+}
+

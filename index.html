@@ -6,27 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Consoares Construções</title>
     <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/header.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <img src="" alt="Consoares Construções">
-            <ul>
-                <li><a href="#servicos">Serviços</a></li>
-                <li><a href="#contato">Contato</a></li>
-                <li><a href="empresa">Nossa Empresa</a></li>
-                <li>Blog</li>
+    <header class="header">
+        <nav class="header__navegacao">
+            <img class="header__imagem" src="assets/img/logo.jpeg" alt="Consoares Construções">
+            <ul class="header__menu">
+                <li class="header__li"><a href="#empresa">NOSSA EMPRESA</a></li>
+                <li class="header__li"><a href="#servicos">SERVIÇOS</a></li>
+                <li class="header__li"><a href="#contato">CONTATO</a></li>
+                <li class="header__li">BLOG</li>
             </ul>
         </nav>
         <img src="" alt="">
     </header>
     <main>
-        <h1>Consoares Construções</h1>        
-            <p class="bordao">Tradição em Estrutura</p>
+        <div class="main__imagem">
+               
+            <p class="main__bordao">TRADIÇÃO EM ESTRUTURA</p>
+            </div>
+            <div class="main__empresa">
+            <h2 id="empresa" class="main__h2">Nossa Empresa</h2>
+
+            <p class="main__text-empresa">A Consoares Construções é uma empresa do ramo da construção civil e nosso maior objetivo é realizar obras com planejamento, organização e qualidade. Executamos obras de todos os portes com eficiência, fornecendo assim toda a mão de obra e materiais necessários para a realização das tarefas. </p>
+
+            <p>Para maior comodidade de nossos clientes realizamos primeiramente o planejamento de execução, de custos e cronograma do projeto, antecipando nossas ações e prevenindo possíveis imprevistos que possam interferir no andamento do projeto. Seguimos e executamos exatamente as necessidades do cliente e fazemos o gerenciamento de todo o processo. </p>
+            </div>
         <div class="cor-servicos">    
-        <h2>Serviços</h2>
+        <h2 id="servicos" class="main__h2">Serviços</h2>
             <p>Conheça um pouco dos serviços</p>
             <ul>
                 <li>Terraplanagem</li>
@@ -46,12 +56,6 @@
                         <img class="servicos-imagem-w" src="assets/img/WAD.png" alt="WAD-Tecnologia Ambiental">
                 </ul>
             </div>
-            <h2>Nossa Empresa</h2>
-                <p>A Consoares Construções é uma empresa do ramo da construção civil e nosso maior objetivo é realizar obras com planejamento, organização e qualidade. Executamos obras de todos os portes com eficiência, fornecendo assim toda a mão de obra e materiais necessários para a realização das tarefas. </p>
-
-                <p>Para maior comodidade de nossos clientes realizamos primeiramente o planejamento de execução, de custos e cronograma do projeto, antecipando nossas ações e prevenindo possíveis imprevistos que possam interferir no andamento do projeto. Seguimos e executamos exatamente as necessidades do cliente e fazemos o gerenciamento de todo o processo. </p>
-                
-
     </main>
     <footer id="contato" class="footer">
         <h2 class="footer__title">Contato</h2>
